@@ -1,5 +1,15 @@
+body {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open sans", sans-serif;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
 h2 {
   font-family: 'Proza Libre', sans-serif;
+  font-weight: bold;
 
 }
 
@@ -15,6 +25,10 @@ a {
   font-weight: bold;
 }
 
+section {
+  padding: 16px 0;
+}
+
 .navigation-items {
   display: flex;
   list-style: none;
@@ -28,4 +42,47 @@ a {
 
 .navigation-item {
   margin: 16px;
+}
+
+.about-me-container {
+  display: flex;
+}
+
+.portrait {
+  width: 300px;
+  border-radius: 5%;
+}
+
+.project-img {
+  width: 50%;
+}
+
+summary {
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
+.project-title h3 {
+  display: inline;
+}
+
+details {
+  cursor: pointer;
+}
+
+#skills-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#skills i {
+  font-size: 2em;
+  width: 2em;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-me-container {
+    flex-direction: column;
+  }
 }

@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap" rel="stylesheet">
-    <script src="https://use.fontawesome.com/ec6926caef.js"></script>
+    <script src="https://kit.fontawesome.com/a5e30260f9.js" crossorigin="anonymous"></script>
     <title>Ada Lovelace Portfolio</title>
   </head>
   <body>
@@ -21,6 +21,67 @@
         <li class="navigation-item"><a href="#">Contact</a></li>
       </ul>
     </nav>
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>Hi! I'm Ada, Countess of Lovelace and am an English mathematician and writer, chiefly known for my work on Charles
+            Babbage's proposed mechanical general-purpose computer, the Analytical Engine.</p>
+            <p>I am one of the first to recognize that machines have applications beyond pure calculation, and to have published the
+            first algorithm intended to be carried out by such a machine.</p>
+            <p>In my free time I like to read about scientific developments, mathematics, and computational mathematics. I also like to
+            take my chances of winning big.</p>
+            <p>Fun fact! I've been programing for <span id="time-container">0</span> seconds!</p>
+          </div>
+          <img src=".//images/portrait.jpg" alt="Ada Lovelace" class="portrait">
+        </div>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <details>
+          <summary class="project-title">
+            <h3>The first computer program</h3>
+          </summary>
+          <img src=".//images/Bernoulli_numbers.jpg" alt="Bernoulli Numbers" class="project-img">
+          <p>The world's first computer program for computing Bernoulli numbers.</p>
+        </details>
+        <details>
+          <summary class="project-title">
+            <h3>The Analytical Engine</h3>
+          </summary>
+          <img src=".//images/analyticalmachine.webp" alt="Analytical Machine" class="project-img">
+          <p>I helped Charles Babbage on topics ranging from math to computation that helped the development of the Analytical
+          Engine.</p>
+        </details>
+        <details>
+          <summary class="project-title">
+            <h3>The Ada programming language</h3>
+          </summary>
+          <img src=".//images/Ada_Mascot_with_slogan.png" alt="Ada programming language logo" class="project-img">
+          <p>My work inspired the United States Department of Defense to name their new programming language after me.</p>
+        </details>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div id="skills-container">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-react"></i>
+          <i class="fa-brands fa-aws"></i>
+          <i class="fa-brands fa-sketch"></i>
+          <i class="fa-brands fa-figma"></i>
+          <i class="fa-brands fa-git"></i>
+          <i class="fa-brands fa-chrome"></i>
+          <i class="fa-solid fa-terminal"></i>
+          <i class="fa-solid fa-universal-access"></i>
+          <i class="fa-brands fa-npm"></i>
+          <i class="fa-brands fa-node"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </section>
+    </main>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
